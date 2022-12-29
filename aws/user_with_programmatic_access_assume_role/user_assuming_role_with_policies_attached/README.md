@@ -6,6 +6,7 @@ Root module includes `iam-role.tf` file which is responsible for only role creat
 
 Root module also assumes that the current user has the `IAMFullAccess` policy attached to it in order to create the  role in `iam-role.tf`.
 
+Use below commands to apply configurations.
 ```bash
 # in user_assuming_role_with_policies_attached directory
 terraform init 
@@ -21,7 +22,13 @@ There are two providers in the [`providers.tf`](./instance_and_sg_creation/provi
 - One for having access to read the role.
 - One for assuming the role with `ec2` and `vpc` full permissions.
 
-
+Use below commands to apply configurations.
+```bash
+# in instance_and_sg_creation directory
+terraform init 
+terraform plan # to check the plan
+terraform apply -auto-approve
+```
 
 :sparkles: Feel free to upvote and accept as an answer. :sparkles:
 
