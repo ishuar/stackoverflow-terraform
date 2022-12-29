@@ -18,3 +18,9 @@ Each provider directories contains queries directories with stackoverflow commun
 # Contribution
 
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
+
+# :star: Contact Me :family:
+
+- [GitHub](https://github.com/ishuar)
+- [LinkedIn](https://www.linkedin.com/in/ishuar/)
+- [Stackoverflow](https://stackoverflow.com/users/15808105/ishuar)
